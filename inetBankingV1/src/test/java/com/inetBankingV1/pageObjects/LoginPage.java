@@ -11,5 +11,6 @@ public class LoginPage {
 	LoginPage(WebDriver rdriver){
 		Idriver = rdriver;
 		PageFactory.initElements(rdriver, this);
+		System.out.println("HI");
 	}
 }
